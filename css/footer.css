@@ -1,0 +1,36 @@
+footer{
+    background-color: rgb(56, 49, 49);
+}
+.footeredit{
+    
+    width: 100%;
+    margin-top: 2%;
+    padding: 1%;
+    display: flex;
+}
+
+.footerlogo{
+    width: 20%;
+    margin-left: 5%;
+
+}
+.footer_contact{
+    width: 20%;
+    margin-left: 30%;
+
+    pre{
+        margin-top: -2%;
+        font-size: 18px;
+        color: white;
+        font-style: bold;
+    }
+
+}
+
+.copyright{
+    margin-top: -2%;
+    padding-bottom: 1%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}

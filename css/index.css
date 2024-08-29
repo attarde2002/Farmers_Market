@@ -1,0 +1,255 @@
+
+/* Banner start*/ 
+*{box-sizing: border-box;}
+
+.slideshow-container {
+    max-width: 100%;
+    height: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.bannerimage {
+    vertical-align: middle;
+    height: 770px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text1 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 75%;
+    left: 10%;
+    font-size: 60px;
+    max-width: 100%;
+    
+}
+.text2 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 45%;
+    font-weight: bolder;
+    left: 10%;
+    font-size: 35px;
+    max-width: 100%;
+    h2{
+        margin-top: -3%;
+    }
+    
+}
+.text3 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10%;
+    
+    left: 10%;
+    font-size: 15px;
+    max-width: 100%;
+
+    a{
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Banner End*/
+
+/* Caption After Banner Start*/
+.afterbannercaption{
+    width: 100%;
+    background-color:green;
+    margin-top: -4%;
+    color: white;
+    p{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+}
+
+/* Caption After Banner End*/
+
+/* About Something Start*/
+.as_main{
+    display: flex;
+    width: 100%;
+list-style: none;
+margin-top: -2%;
+flex-wrap: wrap;
+background-color: beige;
+justify-content: space-between;
+}
+
+.as_left{
+   
+width: 40%;
+color: black;
+text-align: justify;
+margin: 10px;
+padding-left: 7%;
+
+p{
+    font-size: 24px;
+}
+}
+.as_right{
+
+    width: 40%;
+    display: flex;
+    margin-right: 5%;
+list-style: none;
+margin-top: 2%;
+margin-bottom: 2%;
+box-shadow: 15px 15px 15px rgba(0 , 0,0 ,0.5);
+margin-left: -80%;
+border-radius: 20px;
+flex-wrap: wrap;
+background-color: beige;
+justify-content: space-between;
+
+
+
+}
+
+.as_right_sub{
+    display: flex;
+    
+    padding: 1.5%;
+
+    img{
+        margin-top: 3%;
+        width: 100px;
+        height: 100px;
+    }
+
+    
+   
+}
+
+.as_right_sub2{
+    margin-top: -12%;
+    margin-left: 20%;
+}
+
+/* About Something End*/
+
+/* Our FeedBack Trust Start*/
+
+.heading2{
+    margin-top: 2%;
+    font-size: 48px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.feedback{
+    
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.feedbackinfo{
+    width: 25%;
+    text-align: justify;
+    box-shadow: 15px 15px 15px rgba(0 , 0,0 ,0.5);
+    margin-left: 5%;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
+.feedbackperson{
+    display: flex;
+}
+.feedbackpersonpic{
+    
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+}
+.feedbackpersonname{
+    margin-top: -2%;
+    h1{
+        font-size: 24px;
+        
+    }
+    p{
+        margin-top: -7%;
+        margin-left: 2%;
+    }
+}
+
+
+
+/* Our FeedBack Trust Start*/
